@@ -1,0 +1,262 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.container{
+    width:1350px;
+    margin: auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+header{
+    padding:10px 0px;
+    box-shadow: 0px 15px 10px rgb(170, 170, 170);
+}
+.header_logo{
+    width:85px;
+    height:auto;
+}
+.logo_support{
+    margin-left: 5px;
+    font-size: 22px;
+    color: rgb(78, 78, 78);
+}
+.header_nav{
+    width:250px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.header_nav a{
+    text-decoration: none;
+    color: rgb(80, 79, 79);
+    margin: 0px 15px;
+}
+.header_nav a:hover{
+    color: black;
+}
+.header_btn{
+    margin-left: 400px;
+    width: 450px;
+}
+.header_btn a{
+    text-decoration: none;
+    margin: 10px 15px;
+    font-size: 18px;
+    padding:10px 15px;
+    border-radius: 5px;
+}
+.header_btn_one{
+    color: dodgerblue;
+}
+.header_btn_one:hover{
+    color: rgb(20, 95, 170);
+    background-color: rgb(224, 218, 218);
+}
+.header_btn_two{
+     background-color: dodgerblue;
+     color: white;
+}
+.header_btn_two:hover{
+    background-color: rgb(19, 99, 179);
+}
+.title{
+    margin-top: 50px;
+}
+.title_one{
+    width: 40%;
+    padding: 25px;
+}
+.title_one h1{
+    font-size: 65px;
+}
+.title_one p{
+    color: rgb(70, 68, 68);
+    font-size: 18px;
+    font-weight: 200;
+}
+.title_two{
+    width: 50%;
+    margin: auto;
+}
+.title_two video{
+    width: 80%;
+    margin: 10%;
+}
+.support{
+    background-color: rgb(240, 240, 240);
+    margin-top: 75px;
+    border-top: 1px solid  rgb(211, 205, 205);
+    border-bottom: 1px solid  rgb(211, 205, 205);;
+}
+.support_box{
+    width:28%;
+    padding: 30px;
+    margin: 0px auto;
+}
+.support_box h3{
+    font-size: 30px;
+    font-weight: 40000;
+}
+.support_box p{
+    font-weight: 200;
+    font-size: 18px;
+}
+.underline_one{
+    width: 35px;
+    height: 4px;
+    margin-top: -15px;
+    background-color: blue;
+}
+.underline_two{
+    width: 35px;
+    height: 4px;
+    margin-top: -15px;
+    background-color: rgb(224, 173, 6);
+}
+.underline_three{
+    width: 35px;
+    height: 4px;
+    margin-top: -15px;
+    background-color: green;
+}
+.support_box_border{
+    border-left: 1px solid  rgb(211, 205, 205);
+    border-right: 1px solid  rgb(211, 205, 205);
+}
+.features{
+    margin-top: 85px;
+}
+.features_img{
+    width: 20%;
+    margin: 0px 580px;
+}
+.features_img img{
+    width:75%
+}
+.features_content{
+    margin:-75px auto;
+    width:60%;
+    text-align: center;
+}
+.features_content h2{
+     font-size: 60px;
+}
+.features_content p{
+    color: rgb(104, 101, 101);
+    font-size: 18px;
+    margin-top: -20px;
+}
+.features_buttons{
+    margin-top: 180px;
+}
+.features_button{
+    width: 33.33%;
+    text-align:center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(243, 239, 239);
+}
+.features_button a{
+    text-decoration: none;
+    color: rgb(88, 86, 86);
+}
+.features_button a:hover{
+    color:black;
+}
+.features_text{
+    margin-top: 100px;
+    width: 30%;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.features_video{
+    width:55%;
+    margin-top: 20px;
+}
+.features_video video{
+    width:80%;
+    margin: 0px 18%;
+}
+.account{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.account_content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.account_content h2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.account_content a{
+    display: block;
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 18px;
+    padding: 15px 25px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.account_content .login{
+    background-color:rgb(16, 114, 212);
+    color: white;
+    width:30%;
+    margin: auto;
+    border-radius: 5px;
+
+}
+.login:hover{
+    background-color:  rgb(19, 99, 179);
+}
+.loginn:hover{
+    color:rgb(19, 99, 179);
+}
+.footer{
+    padding: 30px 0px;
+    background-color: rgb(235, 238, 241);
+}
+.footer a h3{
+    font-size: 25px;
+    color: rgb(51, 50, 50);
+    
+}
+.footer a{
+    text-decoration: none;
+}
+.footer_nav{
+    padding: 33px 10px;
+    margin-left: 50px;
+    
+}
+.footer_nav a{
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+    margin:5px 15px;
+}
+.footer_nav a:hover{
+    color: black;
+}
+.footer_help{
+    width: 25%;
+    padding: 33px 10px;
+    margin-left: 410px;
+    font-size: 18px;
+    color: rgb(99, 99, 99); 
+}
+.footer_help small{
+    margin-right: 20px;
+}
+.footer_help a{
+    color: rgb(99, 99, 99); 
+}
+.footer_help a:hover{
+    color: black;
+}
+.footer_help i{
+    color: black;
+}
